@@ -1,0 +1,106 @@
+* {
+    margin: 0
+}
+
+body, html{
+    height: 100%
+    
+}
+
+body{
+    background-color: white;
+}
+
+
+nav {
+    background-color: black;
+    color: white;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+#begin {
+    color: white;
+    flex-grow: 4;
+    text-align: left;
+    font-size: larger;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 15px;
+
+}
+li a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+  }
+.top-image-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.top-image {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 7%;
+}
+
+
+.date {
+    background-color: rgb(217, 211, 211);
+    width: 600px;
+    border-style: solid;
+    padding: 10px;
+    margin: auto;
+    height: 10px;
+    
+}
+.raisin-img {
+    padding-top: 5%;
+    position: relative;
+    left: 100px;
+    
+
+}
+.info-text {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    width: 700px;
+    top: -100px;
+    border-bottom: black solid;
+    border-spacing: 100px;
+    padding-bottom: 75px;
+
+}
+.read-more {
+    text-align: center;
+    position: relative;
+    height: 20px;
+    width: 125px;
+    left: 750px;
+    top: -250px;
+    border: 1px solid burlywood;
+    padding: 5px;
+    background-color: goldenrod;
+    color: white;
+    
+}
+.info-text h5 {
+    text-size-adjust: larger;
+
+}
